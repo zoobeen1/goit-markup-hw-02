@@ -103,7 +103,7 @@ h1 {
   text-transform: uppercase;
 }
 
-button {
+.header-content button {
   display: block;
   width: 200px;
   height: 50px;
@@ -264,8 +264,6 @@ address a {
 
 /*Stranica Portfolio*/
 .portfolio {
-  display: flex;
-  flex-direction: row;
   width: 1170px;
   height: 1360px;
   margin-top: 94px;
@@ -276,11 +274,22 @@ address a {
   padding: 0;
   display: flex;
   flex-direction: row;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   width: 611px;
 }
 .portfolio-buttons li {
   list-style-type: none;
   text-align: center;
+  margin-right: 20px;
+}
+
+.portfolio-img {
+  margin-top: 94px;
+  width: 1170px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.portfolio-img li {
+  margin-right: 20px;
 }
