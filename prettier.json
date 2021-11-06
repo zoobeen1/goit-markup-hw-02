@@ -1,5 +1,5 @@
 {
-  "printWidth": 100,
+  "printWidth": 200,
   "tabWidth": 2,
   "useTabs": false,
   "semi": true,
@@ -10,5 +10,5 @@
   "arrowParens": "avoid",
   "proseWrap": "always",
   "editor.wordWrap": "wordWrapColumn",
-  "editor.wordWrapColumn": 100
+  "editor.wordWrapColumn": 200
 }
