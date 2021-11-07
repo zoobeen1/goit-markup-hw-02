@@ -377,9 +377,9 @@ body {
   list-style-type: none;
   border: 1px solid #eeeeee;
 }
-.gallery-image {
+/* .gallery-image {
   width: 370px;
-}
+} */
 
 .gallery-caption {
   margin-left: 24px;
